@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 function Nav(){
     return (
         <nav>
-        <ul>
-          <li>
+          <div>
             <Link to="/">Home</Link>
-          </li>
+          </div>
+        <ul>
           <li>
             <Link to="/page1">Page 1</Link>
           </li>
