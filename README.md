@@ -23,8 +23,8 @@ To recreate this project
 ## The Three Animated and Interactive graphs:
 
 ### Closing Value for Crops
-![chart-1](https://github.com/highsmithcodes/datavisualization/assets/17016293/2aa728e6-c957-45d1-9c83-10b77c706c7a)
+![chart-1](https://github.com/highsmithcodes/datavisualization/assets/17016293/a2847cbd-aa7d-4c46-ba8e-f3a18dfc7b95)
 ### Top 20 Countries by Population 2020
-![chart-2](https://github.com/highsmithcodes/datavisualization/assets/17016293/901efb87-32e6-44e5-a166-0a11c79e1160)
+![chart-2](https://github.com/highsmithcodes/datavisualization/assets/17016293/b1e356f6-7780-4c72-ad1c-ce8ab0f0c4ae)
 ### Most Employees of Large Revenue Companies in the U.S
-![chart-3](https://github.com/highsmithcodes/datavisualization/assets/17016293/b06df56d-9b21-4196-97e6-c6961d8a3030)
+![chart-3](https://github.com/highsmithcodes/datavisualization/assets/17016293/48f77a32-ec5a-4c02-bc12-9aa73242b45f)
