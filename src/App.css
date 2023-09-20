@@ -53,9 +53,46 @@ body{
 }
 .container{
   padding-top:40px;
-  width:70%;
+  width:80%;
   margin: 0 auto;
   text-align: center;
+}
+.row{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.col-3{
+  width:33%;
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col-3 a{
+  height: auto;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 15px;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 210px;
+  transition: all 0.3s ease 0s;
+}
+.col-3 a:hover{
+  transform: translate(0px, -10px);
+}
+.col-3 .sub-title{
+  padding-top:20px;
+}
+.col-3 .type{
+  font-size: 16px;
+  color:grey;
+  padding-top:5px;
 }
 #legend{
   display: flex;
@@ -91,4 +128,16 @@ nav ul li{
   margin:20px auto;
   font-size: 12px;
   line-height: 2;
+}
+#chart-container svg ~ svg{
+  display: none !important;
+}
+
+@media(max-width:786px){
+  .row{
+    flex-direction: column;
+  }
+  .row .col-3{
+    width: 100%;
+  }
 }

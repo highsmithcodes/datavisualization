@@ -4,17 +4,17 @@ function Nav(){
     return (
         <nav>
           <div>
-            <Link to="/">Home</Link>
+            <Link to="/">Data Visualization</Link>
           </div>
         <ul>
           <li>
-            <Link to="/page1">Page 1</Link>
+            <Link to="/chart-1">Chart 1</Link>
           </li>
           <li>
-            <Link to="/page2">Page 2</Link>
+            <Link to="/chart-2">Chart 2</Link>
           </li>
           <li>
-            <Link to="/page3">Page 3</Link>
+            <Link to="/chart-3">Chart 3</Link>
           </li>
         </ul>
       </nav>

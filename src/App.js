@@ -12,9 +12,9 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-          <Route path="/page1" element={<Page1 />} />
-          <Route path="/page2" element={<Page2 />} />
-          <Route path="/page3" element={<Page3 />} />
+          <Route path="/chart-1" element={<Page1 />} />
+          <Route path="/chart-2" element={<Page2 />} />
+          <Route path="/chart-3" element={<Page3 />} />
       </Routes>
     </div>
   );
